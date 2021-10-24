@@ -278,7 +278,6 @@ function Experience(props) {
 					style={{
 						display: 'flex',
 						justifyContent: 'space-between',
-						marginLeft: '20%',
 					}}
 				>
 					<Button

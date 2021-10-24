@@ -47,7 +47,7 @@ function Experience(props) {
 						<Grid
 							item
 							xs={12}
-							lg={4}
+							lg={12}
 							alignItems='flex-end'
 							alignContent='flex-end'
 						>
@@ -63,7 +63,7 @@ function Experience(props) {
 						</Grid>
 						<Grid item xs={0} lg={8} />
 
-						<Grid item md={4} sm={12} xs={12} lg={4}>
+						<Grid item md={4} sm={12} xs={12} lg={12}>
 							<TextField
 								margin='dense'
 								variant='outlined'
@@ -82,7 +82,7 @@ function Experience(props) {
 								}}
 							/>
 						</Grid>
-						<Grid item md={4} sm={6} xs={12} lg={4}>
+						<Grid item md={4} sm={6} xs={12} lg={12}>
 							<TextField
 								margin='dense'
 								variant='outlined'
@@ -102,7 +102,7 @@ function Experience(props) {
 							/>
 						</Grid>
 
-						<Grid item md={4} sm={6} xs={12} lg={4}>
+						<Grid item md={4} sm={6} xs={12} lg={12}>
 							<TextField
 								margin='dense'
 								variant='outlined'
@@ -127,7 +127,7 @@ function Experience(props) {
 								margin='dense'
 								label='Description'
 								variant='outlined'
-								style={{ width: '97%' }}
+								style={{ width: '90%' }}
 								name='experienceDescription1'
 								required
 								value={values.experienceDescription1}
@@ -149,7 +149,7 @@ function Experience(props) {
 						<Grid
 							item
 							xs={12}
-							lg={4}
+							lg={12}
 							alignItems='flex-end'
 							alignContent='flex-end'
 						>
@@ -165,7 +165,7 @@ function Experience(props) {
 						</Grid>
 						<Grid item xs={0} lg={8} />
 						<br />
-						<Grid item md={4} sm={12} xs={12} lg={4}>
+						<Grid item md={4} sm={12} xs={12} lg={12}>
 							<TextField
 								margin='dense'
 								variant='outlined'
@@ -184,7 +184,7 @@ function Experience(props) {
 								}}
 							/>
 						</Grid>
-						<Grid item md={4} sm={6} xs={12} lg={4}>
+						<Grid item md={4} sm={6} xs={12} lg={12}>
 							<TextField
 								margin='dense'
 								variant='outlined'
@@ -204,7 +204,7 @@ function Experience(props) {
 							/>
 						</Grid>
 
-						<Grid item md={4} sm={6} xs={12} lg={4}>
+						<Grid item md={4} sm={6} xs={12} lg={12}>
 							<TextField
 								margin='dense'
 								variant='outlined'
@@ -229,7 +229,7 @@ function Experience(props) {
 								margin='dense'
 								label='Description'
 								variant='outlined'
-								style={{ width: '97%' }}
+								style={{ width: '90%' }}
 								rows={3}
 								name='experienceDescription2'
 								required
@@ -252,7 +252,6 @@ function Experience(props) {
 					style={{
 						display: 'flex',
 						justifyContent: 'space-between',
-						marginLeft: '20%',
 					}}
 				>
 					<Button

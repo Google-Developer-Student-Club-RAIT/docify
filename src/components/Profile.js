@@ -39,7 +39,7 @@ function Profile(props) {
 			<CardContent>
 				<div className={classes.margin}>
 					<Grid container spacing={2} alignItems='center' lg={12}>
-						<Grid item md={6} sm={12} xs={12} lg={6}>
+						<Grid item lg={12}>
 							<TextField
 								margin='dense'
 								variant='outlined'
@@ -51,7 +51,7 @@ function Profile(props) {
 								onChange={props.handleChange}
 							/>
 						</Grid>
-						<Grid item md={6} sm={12} xs={12} lg={6}>
+						<Grid item lg={12}>
 							<TextField
 								margin='dense'
 								label='Last Name'
@@ -64,7 +64,7 @@ function Profile(props) {
 							/>
 						</Grid>
 
-						<Grid item md={6} sm={12} xs={12} lg={6}>
+						<Grid item lg={12}>
 							<TextField
 								margin='dense'
 								label='Email'
@@ -84,7 +84,7 @@ function Profile(props) {
 							/>
 						</Grid>
 
-						<Grid item lg={6} xs={12} sm={12} md={6}>
+						<Grid item lg={12}>
 							<TextField
 								margin='dense'
 								label='Phone Number'
@@ -103,7 +103,7 @@ function Profile(props) {
 							/>
 						</Grid>
 
-						<Grid item md={6} sm={12} xs={12} lg={6}>
+						<Grid item lg={12}>
 							<TextField
 								margin='dense'
 								label='Your Website'
@@ -121,7 +121,7 @@ function Profile(props) {
 								}}
 							/>
 						</Grid>
-						<Grid item md={6} sm={12} xs={12} lg={6}>
+						<Grid item lg={12}>
 							<TextField
 								margin='dense'
 								label='GitHub'
@@ -139,7 +139,7 @@ function Profile(props) {
 								}}
 							/>
 						</Grid>
-						<Grid item md={6} sm={12} xs={12} lg={6}>
+						<Grid item lg={12}>
 							<TextField
 								margin='dense'
 								label='Linked In'
@@ -157,7 +157,7 @@ function Profile(props) {
 								}}
 							/>
 						</Grid>
-						<Grid item md={6} sm={12} xs={12} lg={6}>
+						<Grid item lg={12}>
 							<TextField
 								margin='dense'
 								label='Twitter'
@@ -175,7 +175,7 @@ function Profile(props) {
 								}}
 							/>
 						</Grid>
-						<Grid item md={6} sm={12} xs={12} lg={6}>
+						<Grid item lg={12}>
 							<TextField
 								margin='dense'
 								label='Facebook'
@@ -193,7 +193,7 @@ function Profile(props) {
 								}}
 							/>
 						</Grid>
-						<Grid item md={6} sm={12} xs={12} lg={6}>
+						<Grid item lg={12}>
 							<TextField
 								margin='dense'
 								label='Instagram'
@@ -217,7 +217,6 @@ function Profile(props) {
 							style={{
 								display: 'flex',
 								justifyContent: 'space-between',
-								marginLeft: '20%',
 							}}
 						>
 							<Button

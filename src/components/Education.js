@@ -39,7 +39,7 @@ function Profile(props) {
 			<CardContent>
 				<div className={classes.margin}>
 					<Grid container spacing={2} alignItems='center' lg={12}>
-						<Grid item md={4} sm={12} xs={12} lg={4}>
+						<Grid item md={4} sm={12} xs={12} lg={12}>
 							<TextField
 								margin='dense'
 								variant='outlined'
@@ -58,12 +58,11 @@ function Profile(props) {
 								}}
 							/>
 						</Grid>
-						<Grid item md={4} sm={6} xs={12} lg={4}>
+						<Grid item md={4} sm={6} xs={12} lg={12}>
 							<TextField
 								margin='dense'
 								variant='outlined'
 								name='fromyear1'
-								label='From Year'
 								type='date'
 								style={{ width: '80%' }}
 								required
@@ -79,13 +78,12 @@ function Profile(props) {
 							/>
 						</Grid>
 
-						<Grid item md={4} sm={6} xs={12} lg={4}>
+						<Grid item md={4} sm={6} xs={12} lg={12}>
 							<TextField
 								margin='dense'
 								variant='outlined'
 								name='toyear1'
 								type='date'
-								label='To Year'
 								style={{ width: '80%' }}
 								required
 								value={values.toyear1}
@@ -100,7 +98,7 @@ function Profile(props) {
 							/>
 						</Grid>
 
-						<Grid item md={4} sm={12} xs={12} lg={4}>
+						<Grid item md={4} sm={12} xs={12} lg={12}>
 							<TextField
 								margin='dense'
 								label='Qualification'
@@ -113,12 +111,12 @@ function Profile(props) {
 							/>
 						</Grid>
 
-						<Grid item md={8} sm={12} xs={12} lg={8}>
+						<Grid item md={8} sm={12} xs={12} lg={12}>
 							<TextField
 								margin='dense'
 								label='Description'
 								variant='outlined'
-								style={{ width: '90%' }}
+								style={{ width: '80%' }}
 								name='description1'
 								required
 								value={values.description1}
@@ -130,7 +128,7 @@ function Profile(props) {
 					<Divider />
 					<br />
 					<Grid container spacing={2} alignItems='center' lg={12}>
-						<Grid item md={4} sm={12} xs={12} lg={4}>
+						<Grid item md={4} sm={12} xs={12} lg={12}>
 							<TextField
 								margin='dense'
 								variant='outlined'
@@ -149,12 +147,11 @@ function Profile(props) {
 								}}
 							/>
 						</Grid>
-						<Grid item md={4} sm={6} xs={12} lg={4}>
+						<Grid item md={4} sm={6} xs={12} lg={12}>
 							<TextField
 								margin='dense'
 								variant='outlined'
 								name='fromyear2'
-								label='From Year'
 								type='date'
 								style={{ width: '80%' }}
 								required
@@ -170,12 +167,11 @@ function Profile(props) {
 							/>
 						</Grid>
 
-						<Grid item md={4} sm={6} xs={12} lg={4}>
+						<Grid item md={4} sm={6} xs={12} lg={12}>
 							<TextField
 								margin='dense'
 								variant='outlined'
 								name='toyear2'
-								label='To Year'
 								type='date'
 								style={{ width: '80%' }}
 								required
@@ -191,7 +187,7 @@ function Profile(props) {
 							/>
 						</Grid>
 
-						<Grid item md={4} sm={12} xs={12} lg={4}>
+						<Grid item md={4} sm={12} xs={12} lg={12}>
 							<TextField
 								margin='dense'
 								label='Qualification'
@@ -204,12 +200,12 @@ function Profile(props) {
 							/>
 						</Grid>
 
-						<Grid item md={8} sm={8} xs={8} lg={8}>
+						<Grid item md={8} sm={8} xs={8} lg={12}>
 							<TextField
 								margin='dense'
 								label='Description'
 								variant='outlined'
-								style={{ width: '90%' }}
+								style={{ width: '80%' }}
 								name='description2'
 								required
 								value={values.description2}
@@ -224,7 +220,6 @@ function Profile(props) {
 					style={{
 						display: 'flex',
 						justifyContent: 'space-between',
-						marginLeft: '20%',
 					}}
 				>
 					<Button
